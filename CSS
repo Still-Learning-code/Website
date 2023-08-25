@@ -1,0 +1,86 @@
+
+
+
+header{
+  text-align: center;
+  font-size: 20px;
+  color:#5c5370; 
+}
+div {
+  width: 300px;
+  height: 100px;
+  margin: 5% auto;
+}
+
+.conic-gradient{
+     background: conic-gradient(red 10deg, orange 6deg 25deg, whitesmoke 18deg 45deg, 
+     green 45deg 110deg, blue 110deg 200deg, #2c5740 200deg);
+}
+h1{
+  text-align: center;
+  color:goldenrod;
+text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+i {
+  background: gray;
+  width: 60px;
+  Height: 40px;
+  padding-top: 10px;
+  padding-left: 20px;
+  margin-left: 70px;
+}
+h3{
+  text-align: center;
+  color: goldenrod;
+  font-size: 20px;
+}
+form {
+  margin: 0 auto;
+  width: 400px;
+  
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input,
+textarea {
+  font: 1em sans-serif;
+
+  width: 300px;
+  box-sizing: border-box;
+
+  border: 1px solid #999;
+  }
+
+input:focus,
+textarea:focus {
+  border-color: #000;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+}
+
+.button {
+  padding-left: 90px; 
+}
+button {
+  margin-left: 0.5em;
+}
